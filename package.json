@@ -1,0 +1,15 @@
+{
+  "name": "nodejswebapptutorial",
+  "version": "1.0.0",
+  "description": "This project is designed to practice making a node web app that includes practice with the following topics:\r 1. Node Package Manager\r 2. Building RESTful API's Using Express\r 3. Storing Data in MongoDB\r 4. Authentication and Authorization\r 5. Handling and Logging Errors\r 6. Unit/Integration Testing\r 7. Test Driven Development\r 8. Deployment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^6.1.6",
+    "underscore": "^1.13.2"
+  }
+}
