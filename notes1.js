@@ -68,3 +68,30 @@ console.log(result);
 
 // You can see your outdated packages by running: npm outdated
 // This is determined based on the main registry webpage and finding its current version
+// There will be 3 columns that show what you currently have, what you need, and what the latest version is
+// To update run: 'npm update' HOWEVER this will only update minor and patch releases
+// To update to the latest version then run: 'npm install -g npm-check-updates' and run npm-check-updates 
+
+//---------------------------------------------------------------------------------
+
+/* 1.1.6 Cleaning our javascript */
+
+// We can use the js-hint tool to scan/analyze our code to check for errors or potential problems within
+// Run: 'npm install jshint --save-dev'
+// The --save-dev property is lets node know to add it to the devDependencies tag instead of dependencies to it wont be added to the production environment
+
+//---------------------------------------------------------------------------------
+
+/* 1.1.7 Uninstalling a module */
+
+// run npm uninstall module_name
+
+//---------------------------------------------------------------------------------
+
+/* 1.1.8 Working with Global Packages */
+
+// Installing packages globally allows us to use them wherever regardless of the folder location.
+// To install global use the global tag in the install tag -g
+
+//---------------------------------------------------------------------------------
+
